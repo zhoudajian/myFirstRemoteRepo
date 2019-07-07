@@ -22,5 +22,17 @@ git常用命令
 17、git branch 分支名		创建分支
 18、git checkout 分支名		切换分支		
 19、git checkout -b branchname	创建并切换分支（相当于17和18的结合）
-
-
+20、git push -u origin 分支名	将本地更新的代码推送到远程分支(第一次需要-u, 以后不需要)
+21、git pull origin 分支名	从远程分支拉取更新
+22、git merge dev		在当前的分支上合并dev分支
+23、pwd				显示当前目录的路径
+24、mkdir			创建文件夹
+25、touch			创建文件
+26、cat				查看文件内容
+26、git stash			把当前的工作隐藏起来，等以后恢复现场后继续工作（用于bug修复）
+27、git stash list		查看所有被隐藏的文件列表
+28、git stash apply		恢复被隐藏的文件，但是内容不删除
+29、git stash drop		删除文件
+30、git stash pop		恢复文件的同时也删除文件
+31、git remote			查看远程库的信息
+32、git remote -v		查看远程库的详细信息
