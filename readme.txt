@@ -17,6 +17,10 @@ git常用命令
 13、ssh-keygen -t -rsc -C "youremail@example.com"	生成ssh key
 14、git remote add origin RemoteAddress			关联远程仓库
 	我的地址：https://github.com/zhoudajian/myFirstRemoteRepo.git
-
+15、git clone RemoteAddress	从远程克隆一个本地版本库
+16、git branch			查看分支
+17、git branch 分支名		创建分支
+18、git checkout 分支名		切换分支		
+19、git checkout -b branchname	创建并切换分支（相当于17和18的结合）
 
 
