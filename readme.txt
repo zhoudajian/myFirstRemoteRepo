@@ -10,8 +10,13 @@ git常用命令
 8、 git reset --hard HEAD~n	回退到前n个版本，n为正整数
 9、 git reset --hard 版本号	根据版本号回退
 10、git reflog			查看版本号
-11、git checkout -- filename	撤销文件在工作区的所有修改
+11、git checkout -- filename	撤销文件在工作区的所有修改/恢复删除(rm)但未commit的文件
 	1) 文件还没add到暂存区，则撤销修改后回到和版本库一模一样的状态
 	2) 文件已经add到暂存区后再次修改，则撤销后就回到add暂存区后的状态
+12、rm file			删除文件
+13、ssh-keygen -t -rsc -C "youremail@example.com"	生成ssh key
+14、git remote add origin RemoteAddress			关联远程仓库
+	我的地址：https://github.com/zhoudajian/myFirstRemoteRepo.git
+
 
 
