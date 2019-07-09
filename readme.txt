@@ -20,7 +20,7 @@ git常用命令
 15、git clone RemoteAddress	从远程克隆一个本地版本库
 16、git branch			查看分支
 17、git branch 分支名		创建分支
-18、git checkout 分支名		切换分支		
+18、git checkout 分支名		切换分支，切换后，工作区文件内容变为分支最后一次提交的内容。原来分支未提交的内容保留不变。		
 19、git checkout -b branchname	创建并切换分支（相当于17和18的结合）
 20、git push -u origin 分支名	将本地更新的代码推送到远程分支(第一次需要-u, 以后不需要)
 21、git pull origin 分支名	从远程分支拉取更新
