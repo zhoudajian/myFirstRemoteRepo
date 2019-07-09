@@ -26,7 +26,7 @@ git常用命令
 			      * 若某个文件内容被修改后与分支1中文件有冲突则报错；
 			      * 且在哪个分支下提交就变为哪个分支的内容，不会再保留到另一分支。		
 19、git checkout -b branchname	创建并切换分支（相当于17和18的结合）
-20、git push -u origin branchname	将本地branchname分支更新的代码推送到远程branchname分支(第一次需要-u, 以后不需要)，
+20、git push -u origin branchname	将本地branchname分支更新的代码推送到远程branchname分支，无论当前是否在branchname分支下均遵从。(第一次需要-u, 以后不需要)，
 21、git pull origin 分支名	从远程分支拉取更新
 22、git merge dev		在当前的分支上合并dev分支
 23、pwd				显示当前目录的路径
